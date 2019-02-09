@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LatticeSignUpTask</string>
+
+    <string name="register_fragment">Register Fragment</string>
+</resources>
