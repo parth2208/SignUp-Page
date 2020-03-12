@@ -1,12 +1,12 @@
 # TrendingGitHubRepository
 
-##App Features##
+##App Features
 - Users can view the most trending repositories in Android from Github.
 - Users can sort based on name and stars of the repositories
 - User can see the description, details, language used, forks and stars of all the trending repositories
 - It uses the shimmer animation to while fetching the data from server and in due process if it fails, it will shows an error screen stating the reason.
 
-##App Architecture##
+##App Architecture
 This project uses MVVM Architecture.
 
 ![picture alt](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sovereignconsult.com%2Fblog%2Fknow-mvvm-clean-architecture-android-app%2F&psig=AOvVaw1UexlNOTj3aOAoG__EmYcM&ust=1584088719927000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOCRrcbElOgCFQAAAAAdAAAAABAa )
@@ -20,7 +20,7 @@ This project uses MVVM Architecture.
 - The UI, which shows a visual representation of the data in the ViewModel.
 - Unit Test cases for API service, Database, Repository and ViewModel.
 
-##App Packages##
+##App Packages
 __di__ - contains component and module using Dagger2
   __component__ - contains the dagger annotated component class
   __module__ - contains the module class NetworkApiModule for Api calls and DB to create the instance of Database
@@ -31,7 +31,7 @@ __ui__ - contains classes needed to display Activity and adapter
 __util__ - contains classes needed for activity redirection, ui components.
 __viewModel__ - contains MainViewModel and it's viewmodel factory
 
-##App Specs##
+##App Specs
 - Minimum SDK 19
 - Kotlin is used as language
 - MVVM Architecture
