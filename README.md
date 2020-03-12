@@ -1,6 +1,6 @@
 # TrendingGitHubRepository
 
-##App Features
+#App Features
 - Users can view the most trending repositories in Android from Github.
 - Users can sort based on name and stars of the repositories
 - User can see the description, details, language used, forks and stars of all the trending repositories
